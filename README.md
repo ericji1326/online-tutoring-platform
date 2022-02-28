@@ -1,6 +1,3 @@
-# Quick Demonstration
-![](Demo.gif)
-
 # Inspiration
 We were inspired to create this tutoring platform due to our own experiences with online schooling during the COVID-19 pandemic. We recognized the demand for such platforms and learned firsthand that while online schooling may save time, money and be more convenient, it comes with it's own set of challenges as well. As machine learning enthusiasts, we were determined to tackle these issues with AI.
 
@@ -23,6 +20,9 @@ Through this project, we learned a lot about creating an end-to-end application.
 
 # What's next for LevelUp Tutoring
 During this hackathon, we successfully created another machine learning model using image segmentation techniques that could identify objects in the student's videostream. This could be used to determine if the student is distracted (ie. if the model detects the student is using their phone). A further expansion of this tutoring platform could involve an online examination mode which can use object detection and/or eye-tracking to proctor students for signs of cheating.
+
+# Quick Demonstration
+![](Demo.gif)
 
 # Additional Resources
 The backend files and ML models used in this project were too large to be posted on this repository. They can be accessed here: https://mcgill-my.sharepoint.com/:u:/g/personal/mingyang_li_mail_mcgill_ca/EQrptgGaxk9Dh28Q_wfhs_QBLV3w5C2mj2OIslAnvNBpPw?e=B183Zx
