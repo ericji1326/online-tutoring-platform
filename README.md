@@ -1,10 +1,13 @@
+# Quick Demonstration
+![](Demo.gif)
+
 # Inspiration
 We were inspired to create this tutoring platform due to our own experiences with online schooling during the COVID-19 pandemic. We recognized the demand for such platforms and learned firsthand that while online schooling may save time, money and be more convenient, it comes with it's own set of challenges as well. As machine learning enthusiasts, we were determined to tackle these issues with AI.
 
 # What it does
 LevelUp allows two-way video and audio communication between the tutor and one or more students when they join a classroom. If the user's role is assigned as Tutor, the application will capture image sequences from the student's videostream and make a GET request to our backend API. This API preprocesses the images and feeds them through a facial expression recognition machine learning model that is pre-loaded. The model will interpret the students' expressions and return a prediction, which is displayed to the tutor on the front-end. This enables the tutor to understand the students' response during a session and better cater to their learning needs.
 
-# Demonstration Video
+# Full Demonstration Video
 For the full demonstration video, visit: https://www.youtube.com/watch?v=DjTEV6jMCAI&t=32s
 
 Visit our Devpost Page at: https://devpost.com/software/levelup-tutoring
