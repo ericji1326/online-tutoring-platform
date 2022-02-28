@@ -6,6 +6,7 @@ LevelUp allows two-way video and audio communication between the tutor and one o
 
 # Demonstration Video
 For the full demonstration video, visit: https://www.youtube.com/watch?v=DjTEV6jMCAI&t=32s
+
 Visit our Devpost Page at: https://devpost.com/software/levelup-tutoring
 
 # How we built it
