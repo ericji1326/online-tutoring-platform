@@ -4,6 +4,10 @@ We were inspired to create this tutoring platform due to our own experiences wit
 # What it does
 LevelUp allows two-way video and audio communication between the tutor and one or more students when they join a classroom. If the user's role is assigned as Tutor, the application will capture image sequences from the student's videostream and make a GET request to our backend API. This API preprocesses the images and feeds them through a facial expression recognition machine learning model that is pre-loaded. The model will interpret the students' expressions and return a prediction, which is displayed to the tutor on the front-end. This enables the tutor to understand the students' response during a session and better cater to their learning needs.
 
+# Demonstration Video
+For the full demonstration video, visit: https://www.youtube.com/watch?v=DjTEV6jMCAI&t=32s
+Visit our Devpost Page at: https://devpost.com/software/levelup-tutoring
+
 # How we built it
 Our web application was built with React and the Twilio API. The facial expression recognition machine learning model was deployed in the back-end using Flask. This model was pre-trained on the FER2013 dataset by engineering students at Boston university. More information on this model's development is available at this link: https://arxiv.org/ftp/arxiv/papers/2105/2105.03588.pdf. To pass image data to the back-end API, we utilized the Firebase cloud platform to store Base64 encodings of the images, which were then decoded in our flask API.
 
